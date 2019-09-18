@@ -41,7 +41,7 @@ public class Solution {
             if (weight > 0) {
                 System.out.print("Ценность: ");
                 double value = scanner.nextDouble();
-                if (value >= 0) {
+                if (value > 0) {
                     itemList.add(new Item(weight, value));
                 }
                 else return;
