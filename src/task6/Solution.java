@@ -31,7 +31,7 @@ public class Solution {
     }
 
     public static void createItemList (List<Item> itemList, Scanner scanner) {
-        System.out.println("Введите список предметов (для окончания ввода введите отрицательное значение в одно из полей): ");
+        System.out.println("Введите список предметов (для окончания ввода введите отрицательное значение или ноль в одно из полей): ");
 
         while (true) {
             System.out.println("___________________");
